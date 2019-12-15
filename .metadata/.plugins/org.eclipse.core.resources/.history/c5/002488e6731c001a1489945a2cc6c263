@@ -1,0 +1,60 @@
+package stepDefinitions;
+
+public class AddToShoppingCartStepDefinitions {
+	
+	
+	
+	@When("^User clicks on Phones & PDAs label$")
+	public void user_clicks_on_Phones_PDAs_label() throws Throwable {
+	   
+	   
+	}
+
+	@And("^User clicks on a product$")
+	public void user_clicks_on_a_product() throws Throwable {
+	    
+	}
+
+	@Then("^user should see AddToCartButton$")
+	public void user_should_see_AddToCartButton() throws Throwable {
+	    
+	}
+
+	@When("^user clicks on AddToCartButton$")
+	public void user_clicks_on_AddToCartButton() throws Throwable {
+	   
+	}
+
+	@Then("^user should see a message Success: You have added NameOfProduct to your shopping cart!$")
+	public void user_should_see_a_message_Success_You_have_added_NameOfProduct_to_your_shopping_cart() throws Throwable {
+	   
+	}
+
+	@When("^user clicks on shopping cart$")
+	public void user_clicks_on_shopping_cart() throws Throwable {
+	    
+	}
+
+	@Then("^user should see a list of shopping items$")
+	public void user_should_see_a_list_of_shopping_items() throws Throwable {
+	    
+	}
+
+	@When("^user clicks on the same product$")
+	public void user_clicks_on_the_same_product() throws Throwable {
+	   
+	}
+
+	@And("^clicks on AddToCartButton$")
+	public void clicks_on_AddToCartButton() throws Throwable {
+	   
+	}
+
+	@Then("^quantity of products should be increased$")
+	public void quantity_of_products_should_be_increased() throws Throwable {
+	   
+	}
+
+
+
+}

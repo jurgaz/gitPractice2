@@ -1,0 +1,31 @@
+package selenium.Basics;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertsandWindowHandling {
+
+	public static void main(String[] args) {
+		
+System.setProperty("webdriver.chrome.driver","C:\\Users\\Jurga PC\\Documents\\Classes\\SELENIUM\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+		driver.get("https://ksrtc.in/oprs-web/");
+		
+		WebElement searchButton = driver.findElement(By.xpath("//button[@class = 'btn btn-primary btn-lg btn-block btn-booking']"));
+		searchButton.click();
+		
+		//to handle windows pop ups, use switch method
+		driver.switchTo().alert().accept();
+
+	}
+
+}

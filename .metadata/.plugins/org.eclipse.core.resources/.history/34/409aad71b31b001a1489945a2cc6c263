@@ -1,0 +1,51 @@
+package stepDefinitions;
+
+import org.junit.Assert;
+
+import core.Base;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import pageObjects.TekSchoolScenariosPageObject;
+import utilities.Utility;
+
+public class TekSchoolScenariosStepDefinitions extends Base {
+	
+	TekSchoolScenariosPageObject tekSchoolScenariosPageObject = new TekSchoolScenariosPageObject();
+	
+	@When("^User clicks on My Account Menu on top of the page$")
+	public void user_clicks_on_My_Account_Menu_on_top_of_the_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		Utility.screenshot(driver);
+		tekSchoolScenariosPageObject.clickOnMyAccount();
+		tekSchoolScenariosPageObject.clickOnLogin();
+	 
+	}
+//replace 'username' and 'password' with (.+)
+	@And("^User enters username '(.+)' and password '(.+)' in returning menu$")
+	public void user_enters_username_username_and_password_password_in_returning_menu(String userName, String passWord) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		tekSchoolScenariosPageObject.enterEmailAddress(userName);
+		tekSchoolScenariosPageObject.enterPasswrod(passWord);
+	}
+
+	@And("^User clicks on login buttin$")
+	public void user_clicks_on_login_buttin() throws Throwable {
+	    // Write code here that turns the phrase above into concrete action
+		Utility.screenshot(driver);
+		tekSchoolScenariosPageObject.clickOnLoginButton();
+	 
+	}
+
+	@Then("^User should be logged in$")
+	public void user_should_be_logged_in() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		Assert.assertEquals(true, tekSchoolScenariosPageObject.verifyLoginToMyAccount());
+		Utility.screenshot(driver);
+		
+	  
+	}
+
+
+
+}

@@ -1,0 +1,42 @@
+package selenium.Basics;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DynamicDropDown {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Jurga PC\\Documents\\Classes\\SELENIUM\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.get("https://www.aa.com/homePage.do");
+		
+		//1. Grab departure box xpath
+		//2. Store in a WebElement object
+		//3. Clear the box
+		//4. send (wash) value
+		//5. create a list of storing webelements of dropdowns
+		//6. create a for each loop to travel through list of indexes
+		//7. write if condition to click or select value we want
+		//8. break from the loop
+		
+		WebElement departure = driver.findElement(By.xpath("//input[@id='reservationFlightSearchForm.originAirport']"));
+		departure.clear();
+		departure.sendKeys("wash");
+		
+		List<WebElement> airports = driver.findElements(By.xpath("//ul[@id = 'ui-id-3']/li"));
+		System.out.println(airports.size());
+		
+		
+	}
+
+}

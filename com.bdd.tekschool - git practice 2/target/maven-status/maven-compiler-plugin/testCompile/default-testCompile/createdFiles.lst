@@ -1,0 +1,6 @@
+stepDefinitions\Initializer.class
+stepDefinitions\LoginStepDefinitions.class
+stepDefinitions\CanvasLoginPageStepDefinitions.class
+stepDefinitions\AddToShoppingCartStepDefinitions.class
+runner\TestRunner.class
+stepDefinitions\TekSchoolScenariosStepDefinitions.class

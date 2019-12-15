@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="com.bdd.tekschool" tests="19" started="19" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="8.881">
+    <testsuite name="Feature: AddToWishList" time="8.881">
+      <testsuite name="Scenario: AddToWishList_007" time="8.881">
+        <testcase name="Given User is on Tekschool page" classname="Scenario: AddToWishList_007" time="0.845"/>
+        <testcase name="And User click on Test Environment link" classname="Scenario: AddToWishList_007" time="0.016"/>
+        <testcase name="And User should see test environment page" classname="Scenario: AddToWishList_007" time="1.013"/>
+        <testcase name="When User clicks on My Account Menu on top of the page" classname="Scenario: AddToWishList_007" time="0.337"/>
+        <testcase name="And User click on space login on myAccount menu" classname="Scenario: AddToWishList_007" time="0.253"/>
+        <testcase name="And User enters username 'teststudent@gmail.com' and password 'Tek@Test.com' in returning menu" classname="Scenario: AddToWishList_007" time="0.817"/>
+        <testcase name="And User clicks on login buttin" classname="Scenario: AddToWishList_007" time="0.393"/>
+        <testcase name="Then User should be logged in" classname="Scenario: AddToWishList_007" time="0.6"/>
+        <testcase name="When User clicks on Phones &amp; PDAs label" classname="Scenario: AddToWishList_007" time="0.104"/>
+        <testcase name="And user clicks on HeartIcon" classname="Scenario: AddToWishList_007" time="0.218"/>
+        <testcase name="Then user should see Success: You have added &lt;Name of Product&gt; to you’re your Wish List!" classname="Scenario: AddToWishList_007" time="0.445"/>
+        <testcase name="Then Verify item was added on “Wish Iist” on the top of the menu" classname="Scenario: AddToWishList_007" time="1.601"/>
+        <testcase name="When User clicks on a product" classname="Scenario: AddToWishList_007" time="0.106"/>
+        <testcase name="Then User clicks on HeartIcon again on the side of the page" classname="Scenario: AddToWishList_007" time="0.158"/>
+        <testcase name="Then user should see Success: You have added &lt;Name of Product&gt; to you’re your Wish List!" classname="Scenario: AddToWishList_007" time="0.397"/>
+        <testcase name="When click on “Wish Iist” on the top of the menu" classname="Scenario: AddToWishList_007" time="0.361"/>
+        <testcase name="Then wish list page is displayed" classname="Scenario: AddToWishList_007" time="0.465"/>
+        <testcase name="And user clicks on RedXButton" classname="Scenario: AddToWishList_007" time="0.047"/>
+        <testcase name="Then the item should be removed and user should see Success: You have modified your wish list!" classname="Scenario: AddToWishList_007" time="0.705"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

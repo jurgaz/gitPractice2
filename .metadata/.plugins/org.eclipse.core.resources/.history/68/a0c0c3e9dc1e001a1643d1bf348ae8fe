@@ -1,0 +1,13 @@
+import org.openqa.selenium.support.PageFactory;
+
+import core.Base;
+
+public class CurrencyObjects extends Base{
+	
+//	public CurrencyObjects() {
+//		PageFactory.initElements(driver, this);
+//	}
+
+	
+
+}

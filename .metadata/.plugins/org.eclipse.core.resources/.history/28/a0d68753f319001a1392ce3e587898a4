@@ -1,0 +1,9 @@
+
+Feature: Forgot Password
+ 
+@canvas1
+Scenario: Click on "Forgot Password" on Canvas page
+Given User is on Canvas page
+When User clicks on "Forgot Password" link
+Then User should see "Enter your Email and we'll send you a link to change your password"
+    
