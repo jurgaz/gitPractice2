@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -31,7 +29,6 @@
 <fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
 <fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
 <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
-<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
@@ -52,12 +49,15 @@
 <fullyQualifiedTypeName name="cucumber.api.DataTable"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="pageObjects.AddToShoppingCartPageObjects"/>
-<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
 <fullyQualifiedTypeName name="cucumber.api.java.en.And"/>
-<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
 <fullyQualifiedTypeName name="core.Base"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.ElementNotInteractableException"/>
 <fullyQualifiedTypeName name="utilities.DBUtilities"/>
 <fullyQualifiedTypeName name="utilities.Utility"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="com.bdd.myProject.Objects"/>
+<fullyQualifiedTypeName name="com.bdd.myProject.Base"/>
 </qualifiedTypeNameHistroy>

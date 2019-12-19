@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Jurga PC\eclipse-workspace\com.bdd.tekschool"/>
 			<item value="C:\Users\Jurga PC\eclipse-workspace\SeleniumProject\src\selenium\Basics\AuthoPopup.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +27,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bdd.myProject"/>
 			<item value="com.bdd.tekschool.com.bdd.tekschool"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bdd.myProject"/>
 			<item value="com.bdd.tekschool"/>
 		</list>
 		<list key="artifactId">
+			<item value="com.bdd.myProject"/>
 			<item value="com.bdd.tekschool"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -48,6 +52,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.bdd.myPo"/>
 		</list>
 		<list key="name">
 		</list>
